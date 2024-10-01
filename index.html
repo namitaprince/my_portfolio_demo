@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!--AOS animation-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!--navbar-->
+        <nav>
+            <!--logo-->
+            <img class="logo" src="./images/logo.avif" alt="">
+            <!--links-->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skill</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!--Home-->
+        <section id="home">
+            <div class="section-content">
+                <h1 class="animate__animated animate__bounce" id="username">I'm Namita <span id="lname">Prince</span></h1>
+                <p id="userDetails">This is my official portfolio website to describe all <br>
+                details and work experience in web development.
+                </p>
+                <a id="download" href="">Download CV</a>
+            </div>
+            <div class="section-image">
+                <!--shape-->
+                <img id="shape" class="group1" src="./images/shape.png" alt="no image">
+                <!--girl-->
+                <img id="girl" class="group1" src="./images/girl.png" alt="no image">
+            </div>
+        </section>
+        <!--About me-->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImage">
+                    <img class="img1" src="./images/aboutme.png" alt="no image">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, deserunt quibusdam consequatur voluptate optio excepturi harum adipisci impedit! Est fuga architecto nisi beatae? Tempora debitis itaque sapiente vitae aliquam vel.
+                    Officia nesciunt aperiam tenetur at reiciendis, saepe delectus. Reprehenderit enim aspernatur optio totam possimus? Iste nemo modi, natus eius ducimus quas distinctio tempora quibusdam fugit est placeat cum eaque numquam!</p>
+
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Namita Prince</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+
+                            <span>9652326985</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>abc@123</span>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <!--Skills-->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbars">
+                    <!--html bar-->
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">93%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+                    </div>
+                    <!--Css bar-->
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">89%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar cssbar"></div>
+                    </div>
+                    <!--JS bar-->
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">75%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar jsbar"></div>
+                    </div>
+                    <!--React-->
+                    <div class="bars">
+                        <h3 class="barHead">React</h3>
+                        <span class="barPercent">75%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar reactbar"></div>
+                    </div>
+
+
+
+
+
+                </div>
+                <div data-aos="fade-left" class="skillImage">
+                    <img width="500px" class ="myskill" src="./images/skill.jpg" alt="no image">
+                </div>
+            </div>
+
+        </section>
+        <!--Contacts-->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contact</h2>
+                <span class="subHead">My Contact</span>
+            </div>
+            <!--Icons-->
+            <div class="iconCollections">
+                <!--Linkedin-->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/namita-prince/"><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+
+            
+            
+            </section>
+
+            <!--Footer-->
+            <footer>
+                <p id="copyright"> &copy; My portfolio website -June 2024, All Rights Reserved to &reg; Namita Prince</p>
+                <div class="icon upArrow">
+                    <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+                </div>
+            </footer>
+    </div>
+    
+</body>
+<!--AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
